@@ -1,0 +1,127 @@
+ /*changes by manoj*/
+.x_title button{
+	border: 0;
+	background-color: #5bc0de;
+	border: 1px solid #46b8da;
+	outline: 0;
+	color: #fff;
+	padding: 7px 12px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	border-radius:3px;
+	margin-bottom:0;
+}
+.x_title button:hover{
+	background-color: #269abc;
+	border-color: transparent;
+}
+.x_title h2{
+	margin:8px 0 0;
+}
+.locationtop-bx button{
+	border: 0;
+	background-color: #5bc0de;
+	border: 1px solid #46b8da;
+	outline: 0;
+	color: #fff;
+	padding: 7px 12px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	border-radius:3px;
+	margin:0 0 10px;
+}
+.locationtop-bx button:hover{
+	background-color: #269abc;
+	border-color: transparent;
+}
+.input-sm{
+	border-radius:5px;
+
+}
+
+/*changes*/
+.site_title {
+    padding:15px 15px 0 15px;
+    height: auto;
+}
+.site_title img{
+	max-width: 160px;
+}
+.nav_title {
+    height: auto;
+    background-color: #4caf50;
+}
+.left_col {
+    background: #4caf50;
+}
+.nav-md .container.body .col-md-3.left_col {
+    position: fixed;
+    overflow-y: scroll;
+    height: 100%;
+    width: 218px;
+    overflow-x: hidden;
+}
+.main_container .top_nav {
+    margin-left: 218px;
+}
+.x_title h2 {
+    font-weight: 600;
+    color: #000;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f7f7f7;
+}
+.x_panel .row  > a{
+	color: #4caf50;
+}
+.nav.navbar-nav>li>a {
+    color: #4caf50!important;
+    padding: 3px 30px;
+    font-size: 15px;
+}
+.nav.navbar-nav>li>a>i{
+	padding-right: 8px;
+}
+.nav_menu{
+	background-color: #fff;
+}
+#checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+    position: absolute;
+    z-index: 99999;
+    background: #fff;
+}
+#checkboxes label {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 5px 10px;
+}
+#checkboxes label input{
+	margin: 0 7px 0 0;
+}
+#checkboxes label:hover {
+  background-color: #1e90ff;
+  color: #fff;
+}
+.selectBox select{
+	width: 100%;
+}
+.multiselect-selected-text {
+    float: left;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus{
+    color: #fff!important;
+}
+ .dropdown-menu>.active>a:hover {
+ 	color: #000!important;
+ }
+ #number {
+    font-size: 34px!important;
+    margin-left: 0!important;
+}
